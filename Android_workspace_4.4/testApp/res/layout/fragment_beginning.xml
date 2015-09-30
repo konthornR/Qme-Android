@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context="com.example.testapp.Beginning$PlaceholderFragment" >
+
+     <LinearLayout
+        android:id="@+id/content_frame2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:background="@drawable/blackwallpaper">
+       
+        
+        
+            <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dip"
+        android:background="#FFBB33"
+        android:text="         Queuing with a better queue  "
+        android:textColorLink="@android:color/black"
+        android:textSize="20dp"
+         android:textColor="#aeedc7" 
+         android:fontFamily="sans-serif-light"
+        />
+            
+            <ImageButton
+            android:id="@+id/imageButton123"
+           android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	 android:layout_centerHorizontal="true"
+            android:src="@drawable/scanqrcode" />
+            
+
+            
+            
+  
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    
+
+  
+    
+    <ImageView
+        android:id="@+id/expand2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:visibility="invisible" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/rounded_corners_white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+       
+                    android:textStyle="bold"
+                    android:textColor="#707070"
+                    />
+
+                <TextView
+                    android:id="@+id/description12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="Welcome to Q-Me\nQueuing with a better Queue\nPlease scan the QRCode for queuing"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                 
+                    android:textStyle="bold"
+                    android:textColor="#707070"
+                    />
+</LinearLayout>
+            </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonCancle"
+        android:layout_alignParentLeft="true"
+     
+        android:layout_marginTop="10dp"
+        android:src="@drawable/misosoup" />
+    </LinearLayout>
+</RelativeLayout>

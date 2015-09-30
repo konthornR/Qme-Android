@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Qme.testapp"
+    android:versionCode="9"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoandroid10241"
+        android:label="@string/QMe"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.testapp.MainActivity"
+            android:label="@string/QMe"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dm.zbar.android.scanner.ZBarScannerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.testapp.Menu_activity01"
+            android:label="@string/title_activity_menu_activity01"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="Menus_activity01" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.testapp.Promotion"
+            android:label="Promotion"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="Promotions" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.testapp.Beginning"
+            android:label="@string/title_activity_beginning"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="testdrawer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.testapp.wakeupAct"
+            android:label="wakeupAct"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="wakeupAct" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.testapp.ChooseRestaurant"
+            android:label="@string/title_activity_choose_restaurant"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="ChooseRestaurant" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.testapp.Second_menu"
+            android:label="@string/title_activity_second_menu" >
+             <intent-filter>
+                <action android:name="Second_menu" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

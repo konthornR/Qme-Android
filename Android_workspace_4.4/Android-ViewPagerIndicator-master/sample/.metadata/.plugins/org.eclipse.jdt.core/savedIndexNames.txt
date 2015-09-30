@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+C:\Users\nipoon.s\Desktop\dui\Android-ViewPagerIndicator-master\Android-ViewPagerIndicator-master\sample\.metadata\.plugins\org.eclipse.jdt.core

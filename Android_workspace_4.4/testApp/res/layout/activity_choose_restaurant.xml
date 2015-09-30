@@ -1,0 +1,61 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout_choose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blackwallpaper"
+     >
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <FrameLayout
+        android:layout_width="155dp"
+        android:layout_height="100dp"
+        android:background= "#FFBB33"
+        android:layout_marginLeft="18dip" 
+          android:layout_marginTop="18dip">
+<ImageView
+     android:layout_marginTop="8dip"
+     android:layout_marginLeft="4dip"
+        android:id="@+id/fujiButt"
+        android:layout_width="145dp"
+        android:layout_height="82dp"
+        android:src="@drawable/fuji" />
+    </FrameLayout>
+
+   
+
+
+    <FrameLayout
+        android:layout_width="155dp"
+        android:layout_height="100dp"
+        android:background= "#FFBB33"
+         android:layout_marginLeft="18dip"
+           android:layout_marginTop="18dip"  >
+<ImageView
+     android:layout_marginTop="8dip"
+   android:layout_marginLeft="4dip" 
+        android:id="@+id/MkButt"
+        android:layout_width="145dp"
+        android:layout_height="82dp"
+        android:src="@drawable/mk" />
+    </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
+
+ <ListView
+        android:id="@+id/left_drawer_choose"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#111"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</android.support.v4.widget.DrawerLayout>

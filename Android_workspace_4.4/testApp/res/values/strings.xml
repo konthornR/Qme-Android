@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">testApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="QMe">Q-Me</string>
+    <string name="title_activity_menu_activity01">Menu_activity01</string>
+    <string name="title_activity_beginning">Q-Me</string>
+    <string name="title_section1">testing</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="black">#000000</string>
+    <string name="title_activity_choose_restaurant">ChooseRestaurant</string>
+    <string name="title_activity_second_menu">Second_menu</string>
+
+</resources>
